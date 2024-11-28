@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    margin: 15px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: navy;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: gray;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: blue;
+    color: whitesmoke
+}
+.navbar li{
+    float: left;
+}
